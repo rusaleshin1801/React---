@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 
 import Info from "../Info";
-import { useCart } from "../../hooks/useCart";
+import { useCart } from "../../componets/Hooks/useCart";
 
 import styles from "./Drawer.module.scss";
 
