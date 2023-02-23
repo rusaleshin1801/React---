@@ -1,8 +1,8 @@
 import React from "react";
 import { Route } from "react-router-dom";
 import axios from "axios";
-import Header from "./components/Header";
-import Drawer from "./components/Drawer";
+import Header from "./componets/Header";
+import Drawer from "./componets/Drawer";
 import AppContext from "./context";
 
 import Home from "./pages/Home";
@@ -32,7 +32,7 @@ function App() {
         setFavorites(favoritesResponse.data);
         setItems(itemsResponse.data);
       } catch (error) {
-        alert("Ошибка при запросе данных ;(");
+        alert("Все пошло не по плану ;(");
         console.error(error);
       }
     }
